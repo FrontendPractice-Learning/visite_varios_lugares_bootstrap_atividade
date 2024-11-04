@@ -1,0 +1,31 @@
+.carousel-item img {
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
+
+
+.carousel-caption h4 {
+    color: #ffffff;
+}
+
+
+.titulo-pagina  {
+    padding: 20px;
+    border: 1px solid rgb(207, 207, 207);
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+
+.card img {
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
+
+.card-title { 
+    white-space: nowrap; /* Impede a quebra de linha */ 
+    overflow: hidden; /* Oculta o texto que ultrapassa o limite */ 
+    text-overflow: ellipsis; /* Adiciona reticências ao texto que ultrapassa o limite */ 
+    font-size: clamp(1rem, 2.5vw, 1.5rem); /* Ajusta o tamanho da fonte de forma responsiva */ 
+}
